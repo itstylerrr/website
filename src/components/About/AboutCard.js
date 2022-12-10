@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
+import { GiBasketballBall, GiSoccerKick, GiGolfFlag } from "react-icons/gi";
 
 function AboutCard() {
   return (
@@ -8,30 +9,35 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
-            <br />I am a junior pursuing IMSC in Maths and Computing in BIT
-            Mesra.
+            To those who don't know me, I am <span className="purple">Tyler Witkowski </span>
+            from <span className="purple"> Saint Louis, Missouri.</span>
+            <br />I am a Sophomore at Saint Louis Priory school!.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Apart from school, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Photography
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writting Tech Blogs
+              <ImPointRight /> Sports such as: <GiBasketballBall />{" "}<GiSoccerKick />{" "}<GiGolfFlag />
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Spending time with friends
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Traveling
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Coding
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "If you are dead, simply start living."{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Sun Tzu, The Art of War</footer>
         </blockquote>
       </Card.Body>
     </Card>

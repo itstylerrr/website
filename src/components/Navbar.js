@@ -69,17 +69,14 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/project"
+                to="/photos"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineFundProjectionScreen
-                  style={{ marginBottom: "2px" }}
-                />{" "}
-                Projects
+                <ImCamera style={{ marginBottom: "2px" }} /> Photos
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
+            {/* <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/resume"
@@ -87,17 +84,7 @@ function NavBar() {
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
-            </Nav.Item>
-
-            <Nav.Item>
-              <Nav.Link
-                href="https://blogs.soumya-jit.tech/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <ImCamera style={{ marginBottom: "2px" }} /> Photos
-              </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
           </Nav>
         </Navbar.Collapse>
       </Container>

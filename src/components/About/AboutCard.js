@@ -11,7 +11,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             To those who don't know me, I am <span className="purple">Tyler Witkowski </span>
             from <span className="purple"> Saint Louis, Missouri.</span>
-            <br />I am a Sophomore at Saint Louis Priory school!.
+            <br />I am a Sophomore at Saint Louis Priory school.
             <br />
             <br />
             Apart from school, some other activities that I love to do!

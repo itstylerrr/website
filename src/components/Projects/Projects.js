@@ -25,6 +25,8 @@ function Projects() {
               description="W 3-1 | Goals: Freddy Gaertner (x3)"
               ghLink="https://photos.app.goo.gl/STwWGa2h1q4mEjCn7"
             />
+          </Col>
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={prioryvladue}
               isBlog={false}

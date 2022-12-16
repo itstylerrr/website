@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "http://itstylerrr.github.io/website",
+  "homepage": "https://tjwit.com",
   "private": true,
   "dependencies": {
     "@react-pdf/renderer": "^2.2.0",

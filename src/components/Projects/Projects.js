@@ -18,13 +18,13 @@ function Projects() {
           Most recent events, in chronological order.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+        <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={prioryvwebster}
+              imgPath={prioryvbayless}
               isBlog={false}
-              title="Priory v. Webster 12/12/2022"
-              description="W 3-1 | Goals: Freddy Gaertner (x3)"
-              ghLink="https://photos.app.goo.gl/STwWGa2h1q4mEjCn7"
+              title="Priory v. Bayless 12/20/2022"
+              description="W 65-35"
+              ghLink="https://photos.app.goo.gl/sXckjnUeKGQZ86bq6"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -38,11 +38,11 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={prioryvbayless}
+              imgPath={prioryvwebster}
               isBlog={false}
-              title="Priory v. Bayless 12/20/2022"
-              description="W 65-35"
-              ghLink="https://photos.app.goo.gl/sXckjnUeKGQZ86bq6"
+              title="Priory v. Webster 12/12/2022"
+              description="W 3-1 | Goals: Freddy Gaertner (x3)"
+              ghLink="https://photos.app.goo.gl/STwWGa2h1q4mEjCn7"
             />
           </Col>
         </Row>

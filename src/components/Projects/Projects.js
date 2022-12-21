@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import prioryvwebster from "../../Assets/Photos/121222.JPG";
 import prioryvladue from "../../Assets/Photos/121522.JPG";
+import prioryvbayless from "../../Assets/Photos/122022.JPG";
 
 function Projects() {
   return (
@@ -33,6 +34,15 @@ function Projects() {
               title="Priory v. Ladue 12/15/2022"
               description="T 4-4 | Goals: H. Leritz (x1), N. Stutzer (x1), J. Nadreau (x1), F. Gaertner (x1)"
               ghLink="https://photos.app.goo.gl/oysk8CdAdPCND9PY8"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={prioryvbayless}
+              isBlog={false}
+              title="Priory v. Bayless 12/20/2022"
+              description="W 65-35"
+              ghLink="https://photos.app.goo.gl/sXckjnUeKGQZ86bq6"
             />
           </Col>
         </Row>

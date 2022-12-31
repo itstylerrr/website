@@ -24,7 +24,7 @@ function Projects() {
               imgPath={prioryveureka}
               isBlog={false}
               title="Priory v. Eureka 12/30/2022"
-              description="W 5-3 | Goals: Gabe K. (x2), Freddy G. (x2), Max N. (x1)"
+              description="W 5-3 | Goals: Freddy G. (x2), Gabe K. (x2), Max N. (x1)"
               ghLink="https://photos.app.goo.gl/RkMszLXRquQmdU5z7"
             />
           </Col>

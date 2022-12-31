@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import prioryvwebster from "../../Assets/Photos/121222.JPG";
 import prioryvladue from "../../Assets/Photos/121522.JPG";
 import prioryvbayless from "../../Assets/Photos/122022.JPG";
+import prioryveureka from "../../Assets/Photos/123022.JPG";
 
 function Projects() {
   return (
@@ -18,6 +19,15 @@ function Projects() {
           Most recent events, in chronological order.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={prioryveureka}
+              isBlog={false}
+              title="Priory v. Eureka 12/30/2022"
+              description="W 5-3 | Goals: Gabe K. (x2), Freddy G. (x2), Max N. (x1)"
+              ghLink="https://photos.app.goo.gl/RkMszLXRquQmdU5z7"
+            />
+          </Col>
         <Col md={4} className="project-card">
             <ProjectCard
               imgPath={prioryvbayless}

@@ -6,6 +6,7 @@ import prioryvwebster from "../../Assets/Photos/121222.JPG";
 import prioryvladue from "../../Assets/Photos/121522.JPG";
 import prioryvbayless from "../../Assets/Photos/122022.JPG";
 import prioryveureka from "../../Assets/Photos/123022.JPG";
+import prioryvjbs from "../../Assets/Photos/1123.JPG";
 
 function Projects() {
   return (
@@ -19,6 +20,15 @@ function Projects() {
           Most recent events, in chronological order.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={prioryvjbs}
+              isBlog={false}
+              title="Priory v. JBS 1/1/2023"
+              description="W 5-3 | Goals: Freddy G. (x2), Max N. (x1), Cole C. (x1), JP N. (x1)"
+              ghLink="https://photos.app.goo.gl/8yWb5PowfFpjERj2A"
+            />
+          </Col>
         <Col md={4} className="project-card">
             <ProjectCard
               imgPath={prioryveureka}

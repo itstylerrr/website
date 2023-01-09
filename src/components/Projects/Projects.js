@@ -7,6 +7,8 @@ import prioryvladue from "../../Assets/Photos/121522.JPG";
 import prioryvbayless from "../../Assets/Photos/122022.JPG";
 import prioryveureka from "../../Assets/Photos/123022.JPG";
 import prioryvjbs from "../../Assets/Photos/1123.JPG";
+import prioryvmicds from "../../Assets/Photos/16231.JPG";
+import prioryvclayton1 from "../../Assets/Photos/16232.JPG"
 
 function Projects() {
   return (
@@ -20,6 +22,24 @@ function Projects() {
           Most recent events, in chronological order.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={prioryvclayton1}
+              isBlog={false}
+              title="Priory v. Clayton 1/6/2023"
+              description="I forgot the score."
+              ghLink="https://photos.app.goo.gl/HWVAj3q5uerqfqtF9"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={prioryvmicds}
+              isBlog={false}
+              title="Priory v. MICDS 1/6/2023"
+              description="I forgot the score."
+              ghLink="https://photos.app.goo.gl/KGK89SNVFdbgkKzB6"
+            />
+          </Col>
         <Col md={4} className="project-card">
             <ProjectCard
               imgPath={prioryvjbs}

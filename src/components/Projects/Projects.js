@@ -8,7 +8,7 @@ import prioryvbayless from "../../Assets/Photos/122022.JPG";
 import prioryveureka from "../../Assets/Photos/123022.JPG";
 import prioryvjbs from "../../Assets/Photos/1123.JPG";
 import prioryvmicds from "../../Assets/Photos/16231.JPG";
-import prioryvclayton1 from "../../Assets/Photos/16232.JPG"
+import prioryvclayton1 from "../../Assets/Photos/16232.JPG";
 
 function Projects() {
   return (
@@ -22,7 +22,7 @@ function Projects() {
           Most recent events, in chronological order.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-        <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={prioryvclayton1}
               isBlog={false}
@@ -40,7 +40,7 @@ function Projects() {
               ghLink="https://photos.app.goo.gl/KGK89SNVFdbgkKzB6"
             />
           </Col>
-        <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={prioryvjbs}
               isBlog={false}
@@ -49,7 +49,7 @@ function Projects() {
               ghLink="https://photos.app.goo.gl/8yWb5PowfFpjERj2A"
             />
           </Col>
-        <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={prioryveureka}
               isBlog={false}
@@ -58,7 +58,7 @@ function Projects() {
               ghLink="https://photos.app.goo.gl/RkMszLXRquQmdU5z7"
             />
           </Col>
-        <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={prioryvbayless}
               isBlog={false}

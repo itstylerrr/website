@@ -10,6 +10,7 @@ import prioryvjbs from "../../Assets/Photos/1123.JPG";
 import prioryvmicds from "../../Assets/Photos/16231.JPG";
 import prioryvclayton1 from "../../Assets/Photos/16232.JPG";
 import prioryvclayton2 from "../../Assets/Photos/1923.JPG";
+import prioryvdominic from "../../Assets/Photos/12023.JPG";
 
 function Projects() {
   return (
@@ -24,6 +25,15 @@ function Projects() {
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
         <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={prioryvdominic}
+              isBlog={false}
+              title="Priory v. St. Dominic 1/9/2023"
+              description="Monk Night!"
+              ghLink="https://photos.app.goo.gl/NV9gLNUey15GBMke8"
+            />
+          </Col>        
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={prioryvclayton2}
               isBlog={false}

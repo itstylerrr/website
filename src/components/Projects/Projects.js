@@ -102,7 +102,7 @@ function Projects() {
               imgPath={prioryvladue}
               isBlog={false}
               title="Priory v. Ladue 12/15/2022"
-              description="T 4-4 | Goals: H. Leritz (x1), N. Stutzer (x1), J. Nadreau (x1), F. Gaertner (x1)"
+              description="T 4-4 | Goals: Henry L. (x1), Noah S. (x1), JP N. (x1), Freddy G. (x1)"
               ghLink="https://photos.app.goo.gl/oysk8CdAdPCND9PY8"
             />
           </Col>
@@ -111,7 +111,7 @@ function Projects() {
               imgPath={prioryvwebster}
               isBlog={false}
               title="Priory v. Webster 12/12/2022"
-              description="W 3-1 | Goals: Freddy Gaertner (x3)"
+              description="W 3-1 | Goals: Freddy G. (x3)"
               ghLink="https://photos.app.goo.gl/STwWGa2h1q4mEjCn7"
             />
           </Col>

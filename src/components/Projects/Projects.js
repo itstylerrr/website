@@ -11,6 +11,7 @@ import prioryvmicds from "../../Assets/Photos/16231.JPG";
 import prioryvclayton1 from "../../Assets/Photos/16232.JPG";
 import prioryvclayton2 from "../../Assets/Photos/1923.JPG";
 import prioryvdominic from "../../Assets/Photos/12023.JPG";
+import prioryvwestminster from "../../Assets/Photos/2723.JPG";
 
 function Projects() {
   return (
@@ -24,7 +25,16 @@ function Projects() {
           Most recent events, in chronological order.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-        <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={prioryvwestminster}
+              isBlog={false}
+              title="Priory v. Westminster 2/7/2023"
+              description="I waiting a very long time to get these photos done for some reason I have no clue what the result of this game was."
+              ghLink="https://photos.app.goo.gl/LdjR883Sucv4F7Lh6"
+            />
+          </Col>
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={prioryvdominic}
               isBlog={false}
@@ -32,7 +42,7 @@ function Projects() {
               description="Monk Night!"
               ghLink="https://photos.app.goo.gl/NV9gLNUey15GBMke8"
             />
-          </Col>        
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={prioryvclayton2}

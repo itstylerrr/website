@@ -31,7 +31,7 @@ function Projects() {
               imgPath={priorybballseniornight}
               isBlog={false}
               title="Priory Basketball Senior Night 2/14/2023"
-              description="Thank you senior for an amazing season! --- Max Lipe | Jacob Willard | Jalen Riad | Gabriel Leung"
+              description="Thank you seniors for an amazing season! --- Max Lipe | Jacob Willard | Jalen Riad | Gabriel Leung"
               ghLink="https://photos.app.goo.gl/Q5qF199zh4eNb2PS7"
             />
           </Col>

@@ -28,7 +28,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={prioryvwestminster}
+              imgPath={priorybballseniornight}
               isBlog={false}
               title="Priory Basketball Senior Night 2/14/2023"
               description="Thank you senior for an amazing season! --- Max Lipe | Jacob Willard | Jalen Riad | Gabriel Leung"

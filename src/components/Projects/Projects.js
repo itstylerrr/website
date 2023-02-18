@@ -12,6 +12,7 @@ import prioryvclayton1 from "../../Assets/Photos/16232.JPG";
 import prioryvclayton2 from "../../Assets/Photos/1923.JPG";
 import prioryvdominic from "../../Assets/Photos/12023.JPG";
 import prioryvwestminster from "../../Assets/Photos/2723.JPG";
+import priorybballseniornight from "../../Assets/Photos/21423.JPG";
 
 function Projects() {
   return (
@@ -25,6 +26,15 @@ function Projects() {
           Most recent events, in chronological order.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={prioryvwestminster}
+              isBlog={false}
+              title="Priory Basketball Senior Night 2/14/2023"
+              description="Thank you senior for an amazing season! --- Max Lipe | Jacob Willard | Jalen Riad | Gabriel Leung"
+              ghLink="https://photos.app.goo.gl/Q5qF199zh4eNb2PS7"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={prioryvwestminster}

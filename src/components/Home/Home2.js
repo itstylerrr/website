@@ -27,11 +27,11 @@ function Home2() {
               </i>
               <br />
               <br />
-              I currently play 3 sports for Priory aswell.
+              I currently play 3 sports for Priory as well.
               <i>
-                <b className="purple">{" "}Soccer, Golf </b>{" "}and{" "}
+                <b className="purple">{" "}Soccer, Basketball, Lacrosse </b>{" "}and{" "}
                 <b className="purple">
-                  Basketball.
+                  Golf.
                 </b>
               </i>
               <br />

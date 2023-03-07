@@ -9,7 +9,8 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            To those who don't know me, I am <span className="purple">Tyler Witkowski </span>
+            To those who don't know me, I am{" "}
+            <span className="purple">Tyler Witkowski </span>
             from <span className="purple"> Saint Louis, Missouri.</span>
             <br />I am a Sophomore at Saint Louis Priory school.
             <br />
@@ -21,7 +22,8 @@ function AboutCard() {
               <ImPointRight /> Photography
             </li>
             <li className="about-activity">
-              <ImPointRight /> Sports such as: <GiBasketballBall />{" "}<GiSoccerKick />{" "}<GiGolfFlag />
+              <ImPointRight /> Sports such as: <GiBasketballBall />{" "}
+              <GiSoccerKick />{" "} <GiGolfFlag />{" "}🥍
             </li>
             <li className="about-activity">
               <ImPointRight /> Spending time with friends

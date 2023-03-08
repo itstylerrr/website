@@ -13,6 +13,7 @@ import prioryvclayton2 from "../../Assets/Photos/1923.JPG";
 import prioryvdominic from "../../Assets/Photos/12023.JPG";
 import prioryvwestminster from "../../Assets/Photos/2723.JPG";
 import priorybballseniornight from "../../Assets/Photos/21423.JPG";
+import prioryvsluh from "../../Assets/Photos/3723.JPG";
 
 function Projects() {
   return (
@@ -26,6 +27,15 @@ function Projects() {
           Most recent events, in chronological order.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={prioryvsluh}
+              isBlog={false}
+              title="Priory vs. SLUH 3/7/2023"
+              description="| Loss - 13-7 |"
+              ghLink="https://photos.app.goo.gl/bzTJ52fTkXa3krWQ9"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={priorybballseniornight}

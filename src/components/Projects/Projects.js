@@ -31,7 +31,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={prioryvsluh}
+              imgPath={prioryvwentzville}
               isBlog={false}
               title="Priory v. Wentzville 4/2/2023"
               description="| Win - 19 (or 18 idk) -11 |"
@@ -40,7 +40,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={prioryvsluh}
+              imgPath={prioryvlindbergh}
               isBlog={false}
               title="Priory v. Lindbergh 4/2/2023"
               description="| Loss - 13-7 |"

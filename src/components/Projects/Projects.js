@@ -14,8 +14,8 @@ import prioryvdominic from "../../Assets/Photos/12023.JPG";
 import prioryvwestminster from "../../Assets/Photos/2723.JPG";
 import priorybballseniornight from "../../Assets/Photos/21423.JPG";
 import prioryvsluh from "../../Assets/Photos/3723.JPG";
-import prioryvlindbergh from "../../Assets/Photos/4223ultimate";
-import prioryvwentzville from "../../Assets/Photos/4223lax";
+import prioryvlindbergh from "../../Assets/Photos/4223ultimate.JPG";
+import prioryvwentzville from "../../Assets/Photos/4223lax.JPG";
 
 function Projects() {
   return (

@@ -34,7 +34,7 @@ function Projects() {
               imgPath={prioryvwentzville}
               isBlog={false}
               title="Priory v. Wentzville 4/2/2023"
-              description="| Win - 19 (or 18 idk) -11 |"
+              description="| Win - 19 (or 18 idk) - 11 |"
               ghLink="https://photos.app.goo.gl/71464niuaXvaEuj29"
             />
           </Col>
@@ -43,7 +43,7 @@ function Projects() {
               imgPath={prioryvlindbergh}
               isBlog={false}
               title="Priory v. Lindbergh 4/2/2023"
-              description="| Loss - 13-7 |"
+              description="| Win (thats about all I know about ultimate) |"
               ghLink="https://photos.app.goo.gl/QqWZQuRxvVEtEvuQ6"
             />
           </Col>

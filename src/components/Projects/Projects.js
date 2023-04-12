@@ -16,6 +16,8 @@ import priorybballseniornight from "../../Assets/Photos/21423.JPG";
 import prioryvsluh from "../../Assets/Photos/3723.JPG";
 import prioryvlindbergh from "../../Assets/Photos/4223ultimate.JPG";
 import prioryvwentzville from "../../Assets/Photos/4223lax.JPG";
+import prioryvmicdslax from "../../Assets/Photos/41123lax.JPG";
+import prioryvluno from "../../Assets/Photos/41123baseball.JPG";
 
 function Projects() {
   return (
@@ -29,6 +31,24 @@ function Projects() {
           Most recent events, in chronological order.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={prioryvmicdslax}
+              isBlog={false}
+              title="Priory v. MICDS 4/11/2023"
+              description="| 8-9 OT Loss (only here for 1 Q) |"
+              ghLink="https://photos.app.goo.gl/ggeYcpPQQLHxdHor5"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={prioryvluno}
+              isBlog={false}
+              title="Priory v. Lutheran North 4/11/2023"
+              description="| I did not get a score update. (Only here for 1 inning) |"
+              ghLink="https://photos.app.goo.gl/DqsudyrDF5pxFDRH6"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={prioryvwentzville}

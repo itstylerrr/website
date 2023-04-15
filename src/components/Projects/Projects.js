@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
+import tjwlogo from "../../Assets/Photos/tjwlogo.png";
 import prioryvwebster from "../../Assets/Photos/121222.JPG";
 import prioryvladue from "../../Assets/Photos/121522.JPG";
 import prioryvbayless from "../../Assets/Photos/122022.JPG";
@@ -31,13 +32,16 @@ function Projects() {
         <p style={{ color: "white" }}>
           Most recent events, in chronological order.
         </p>
-        <p style={{ color: "white" }}>
-          Like my work?{" "}
-          <a href="https://www.buymeacoffee.com/tjwit">
-            <i>Buy me a coffe!</i>
-          </a>
-        </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={tjwlogo}
+              isBlog={true}
+              title="| Support my work! |"
+              description="If you enjoy my work, you can click the button below to 'buy me a coffee!'"
+              ghLink="https://www.buymeacoffee.com/tjwit"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={prioryvcbc}

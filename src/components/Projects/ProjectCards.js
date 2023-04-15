@@ -14,7 +14,7 @@ function ProjectCards(props) {
         </Card.Text>
         <Button variant="primary" href={props.ghLink} target="_blank">
           <IoMdPhotos /> &nbsp;
-          {props.isBlog ? "Get Photos" : "Get Photos"}
+          {props.isBlog ? "Support Me" : "Get Photos"}
         </Button>
         {"\n"}
         {"\n"}

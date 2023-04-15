@@ -18,6 +18,7 @@ import prioryvlindbergh from "../../Assets/Photos/4223ultimate.JPG";
 import prioryvwentzville from "../../Assets/Photos/4223lax.JPG";
 import prioryvmicdslax from "../../Assets/Photos/41123lax.JPG";
 import prioryvluno from "../../Assets/Photos/41123baseball.JPG";
+import prioryvcbc from "../../Assets/Photos/41423.JPG";
 
 function Projects() {
   return (
@@ -30,7 +31,22 @@ function Projects() {
         <p style={{ color: "white" }}>
           Most recent events, in chronological order.
         </p>
+        <p style={{ color: "white" }}>
+          Like my work?{" "}
+          <a href="https://www.buymeacoffee.com/tjwit">
+            <i>Buy me a coffe!</i>
+          </a>
+        </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={prioryvcbc}
+              isBlog={false}
+              title="Priory v. CBC 4/11/2023"
+              description="| 8-7 Win (2nd half shutout by Colin Pim '25) |"
+              ghLink="https://photos.app.goo.gl/qkSqiKm9jVfzWJdr5"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={prioryvmicdslax}

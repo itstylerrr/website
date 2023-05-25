@@ -20,6 +20,10 @@ import prioryvwentzville from "../../Assets/Photos/4223lax.JPG";
 import prioryvmicdslax from "../../Assets/Photos/41123lax.JPG";
 import prioryvluno from "../../Assets/Photos/41123baseball.JPG";
 import prioryvcbc from "../../Assets/Photos/41423.JPG";
+import priorygolf from "../../Assets/Photos/42423golf.JPG";
+import jhmtm from "../../Assets/Photos/42823jhmtm.JPG";
+import fd from "../../Assets/Photos/42823fd.JPG";
+import prioryvlindbergh from "../../Assets/42923.JPG";
 
 function Projects() {
   return (
@@ -44,9 +48,45 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={prioryvlindbergh}
+              isBlog={false}
+              title="Priory Lacrosse Senior Game 4/29/23"
+              description="| 8-7 Win |"
+              ghLink="https://photos.app.goo.gl/EQgcJ4eBjsE1kREp7"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={fd}
+              isBlog={false}
+              title="Priory Field Day 4/28/23"
+              description="| Photography from field day. |"
+              ghLink="https://photos.app.goo.gl/bSX9UDXE1Ppuq1gp6"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={jhmtm}
+              isBlog={false}
+              title="Jim Hoots Memorial Track Meet 4/28/23"
+              description=""
+              ghLink="https://photos.app.goo.gl/qstaqiTAWQaGPPvj6"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={priorygolf}
+              isBlog={false}
+              title="Priory Golf @ Bellerive 4/24/23"
+              description="| Players: Ryan Margiotta '23, Luke McLaughlin '24, Owen Farley '24, Eddie Rothery '25, Luke Glarner '25 |"
+              ghLink="https://photos.app.goo.gl/hFzAnVoaiLwUowiw7"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={prioryvcbc}
               isBlog={false}
-              title="Priory v. CBC 4/11/2023"
+              title="Priory v. CBC 4/14/2023"
               description="| 8-7 Win (2nd half shutout by Colin Pim '25) |"
               ghLink="https://photos.app.goo.gl/qkSqiKm9jVfzWJdr5"
             />

@@ -23,7 +23,7 @@ import prioryvcbc from "../../Assets/Photos/41423.JPG";
 import priorygolf from "../../Assets/Photos/42423golf.JPG";
 import jhmtm from "../../Assets/Photos/42823jhmtm.JPG";
 import fd from "../../Assets/Photos/42823fd.JPG";
-import prioryvlindbergh from "../../Assets/42923.JPG";
+import laxsenior from "../../Assets/42923.JPG";
 
 function Projects() {
   return (
@@ -48,7 +48,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={prioryvlindbergh}
+              imgPath={laxsenior}
               isBlog={false}
               title="Priory Lacrosse Senior Game 4/29/23"
               description="| 8-7 Win |"

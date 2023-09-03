@@ -24,6 +24,7 @@ import priorygolf from "../../Assets/Photos/42423golf.JPG";
 import jhmtm from "../../Assets/Photos/42823jhmtm.JPG";
 import fd from "../../Assets/Photos/42823fd.JPG";
 import laxsenior from "../../Assets/Photos/42923.JPG";
+import prioryvsdhs from "../../Assets/Photos/090123.jpg";
 
 function Projects() {
   return (
@@ -44,6 +45,15 @@ function Projects() {
               title="| Support my work! |"
               description="If you enjoy my work, you can click the button below to 'buy me a coffee!'"
               ghLink="https://www.buymeacoffee.com/tjwit"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={prioryvsdhs}
+              isBlog={false}
+              title="Priory vs. St. Dominic 9/01/23"
+              description="| Rough lighting conditions, only got a few and was only able to keep very few. |"
+              ghLink="https://photos.app.goo.gl/Z8GYCfk1o2LRkMUh9"
             />
           </Col>
           <Col md={4} className="project-card">

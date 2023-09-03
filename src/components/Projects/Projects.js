@@ -14,7 +14,7 @@ import prioryvclayton2 from "../../Assets/Photos/1923.JPG";
 import prioryvdominic from "../../Assets/Photos/12023.JPG";
 import prioryvwestminster from "../../Assets/Photos/2723.JPG";
 import priorybballseniornight from "../../Assets/Photos/21423.JPG";
-import prioryvsluh from "../../Assets/Photos/3723.JPG";
+import prioryvsluh from "../../Assets/Photos/3723.jpg";
 import prioryvlindbergh from "../../Assets/Photos/4223ultimate.JPG";
 import prioryvwentzville from "../../Assets/Photos/4223lax.JPG";
 import prioryvmicdslax from "../../Assets/Photos/41123lax.JPG";

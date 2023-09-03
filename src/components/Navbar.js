@@ -5,13 +5,7 @@ import Container from "react-bootstrap/Container";
 import logo from "../Assets/logo.png";
 import { Link } from "react-router-dom";
 import { ImCamera } from "react-icons/im";
-import {
-  AiOutlineHome,
-  AiOutlineFundProjectionScreen,
-  AiOutlineUser,
-} from "react-icons/ai";
-
-import { CgFileDocument } from "react-icons/cg";
+import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);

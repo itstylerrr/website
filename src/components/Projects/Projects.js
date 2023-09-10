@@ -25,6 +25,7 @@ import jhmtm from "../../Assets/Photos/42823jhmtm.JPG";
 import fd from "../../Assets/Photos/42823fd.JPG";
 import laxsenior from "../../Assets/Photos/42923.JPG";
 import prioryvsdhs from "../../Assets/Photos/090123.jpg";
+import prioryvluso from "../../Assets/Photos/9823.jpg";
 
 function Projects() {
   return (
@@ -45,6 +46,15 @@ function Projects() {
               title="| Support my work! |"
               description="If you enjoy my work, you can click the button below to 'buy me a coffee!'"
               ghLink="https://www.buymeacoffee.com/tjwit"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={prioryvluso}
+              isBlog={false}
+              title="Priory vs. LUSO 9/08/23"
+              description="| Ravens win 36-20! - Worked with low lighting conditions again, however spent alot of time editing and I think this turned out really well for the conditions. |"
+              ghLink="https://photos.app.goo.gl/rWMhkJu7NemddHLx9"
             />
           </Col>
           <Col md={4} className="project-card">

@@ -26,6 +26,8 @@ import fd from "../../Assets/Photos/42823fd.JPG";
 import laxsenior from "../../Assets/Photos/42923.JPG";
 import prioryvsdhs from "../../Assets/Photos/090123.jpg";
 import prioryvluso from "../../Assets/Photos/9823.jpg";
+import prioryvmicds2 from "../../Assets/Photos/91523.jpg";
+import prioryvmicds3 from "../../Assets/Photos/91823.jpg";
 
 function Projects() {
   return (
@@ -46,6 +48,24 @@ function Projects() {
               title="| Support my work! |"
               description="If you enjoy my work, you can click the button below to 'buy me a coffee!'"
               ghLink="https://www.buymeacoffee.com/tjwit"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={prioryvmicds3}
+              isBlog={false}
+              title="Priory (7th Grade) vs. MICDS 9/18/23"
+              description="| Ravens win 24-22! - Great first FLEX football game by the 7th graders! |"
+              ghLink="https://photos.app.goo.gl/S1UZhgr5T3pvojer9"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={prioryvmicds2}
+              isBlog={false}
+              title="Priory vs. MICDS 9/15/23"
+              description="| Ravens defeated 10-41 - Rough game for the Ravens. |"
+              ghLink="https://photos.app.goo.gl/PhdxdxjcytTRfYWd7"
             />
           </Col>
           <Col md={4} className="project-card">

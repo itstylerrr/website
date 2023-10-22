@@ -29,6 +29,7 @@ import prioryvluso from "../../Assets/Photos/9823.jpg";
 import prioryvmicds2 from "../../Assets/Photos/91523.jpg";
 import prioryvmicds3 from "../../Assets/Photos/91823.jpg";
 import prioryvmarquette from "../../Assets/Photos/10723.jpg";
+import prioryvlfl from "../../Assets/Photos/102123.jpg";
 
 function Projects() {
   return (
@@ -49,6 +50,15 @@ function Projects() {
               title="| Support my work! |"
               description="If you enjoy my work, you can click the button below to 'buy me a coffee!'"
               ghLink="https://www.buymeacoffee.com/tjwit"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={prioryvmarquette}
+              isBlog={false}
+              title="Priory Football Senior Night 10/21/23"
+              description="| Priory Football Senior Night! Game photos may not be up to standard as I may have gotten a filter that I didn't want to use stuck on my lense... But senior+parent photos were with a different lense so they should be good! |"
+              ghLink="https://photos.app.goo.gl/asVHW22Ypf53qx6e7"
             />
           </Col>
           <Col md={4} className="project-card">

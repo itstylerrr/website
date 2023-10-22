@@ -54,7 +54,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={prioryvmarquette}
+              imgPath={prioryvlfl}
               isBlog={false}
               title="Priory Football Senior Night 10/21/23"
               description="| Priory Football Senior Night! Game photos may not be up to standard as I may have gotten a filter that I didn't want to use stuck on my lense... But senior+parent photos were with a different lense so they should be good! |"

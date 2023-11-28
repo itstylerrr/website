@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
-import { GiBasketballBall, GiSoccerKick, GiGolfFlag } from "react-icons/gi";
+import { GiSoccerKick, GiGolfFlag } from "react-icons/gi";
 
 function AboutCard() {
   return (

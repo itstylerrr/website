@@ -22,8 +22,8 @@ function AboutCard() {
               <ImPointRight /> Photography
             </li>
             <li className="about-activity">
-              <ImPointRight /> Sports such as:
-              <GiSoccerKick /> <GiGolfFlag /> 🥍
+              <ImPointRight /> Sports such as: <GiSoccerKick /> <GiGolfFlag />{" "}
+              🥍
             </li>
             <li className="about-activity">
               <ImPointRight /> Spending time with friends

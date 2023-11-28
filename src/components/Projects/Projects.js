@@ -33,6 +33,7 @@ import prioryvlfl from "../../Assets/Photos/102123.jpg";
 import prioryvspx from "../../Assets/Photos/102723.jpg";
 import prioryvclayton3 from "../../Assets/Photos/111323.jpg";
 import priorybballjamboree from "../../Assets/Photos/111423.jpg";
+import prioryvnorthwest from "../../Assets/Photos/112723.jpg";
 
 function Projects() {
   return (
@@ -53,6 +54,15 @@ function Projects() {
               title="| Support my work! |"
               description="If you enjoy my work, you can click the button below to 'buy me a coffee!'"
               ghLink="https://www.buymeacoffee.com/tjwit"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={prioryvnorthwest}
+              isBlog={false}
+              title="Priory vs. Northwest 11/27/23"
+              description="| Goals: Freddy G. x2 * Cameron R. x1 * J.P. N. x1 * Jake W. x1 |"
+              ghLink="https://photos.app.goo.gl/Ad8vKLyguNs1GdT37"
             />
           </Col>
           <Col md={4} className="project-card">

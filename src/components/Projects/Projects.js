@@ -31,6 +31,7 @@ import prioryvmicds3 from "../../Assets/Photos/91823.jpg";
 import prioryvmarquette from "../../Assets/Photos/10723.jpg";
 import prioryvlfl from "../../Assets/Photos/102123.jpg";
 import prioryvspx from "../../Assets/Photos/102723.jpg";
+import prioryveureka2 from "../../Assets/Photos/111023.jpg";
 import prioryvclayton3 from "../../Assets/Photos/111323.jpg";
 import priorybballjamboree from "../../Assets/Photos/111423.jpg";
 import prioryvnorthwest from "../../Assets/Photos/112723.jpg";
@@ -81,6 +82,15 @@ function Projects() {
               title="Priory vs. Clayton 11/13/23"
               description="| Goals: Freddy G. x1 * Jack L x1 |"
               ghLink="https://photos.app.goo.gl/ZJAG6MS3dyfEYKtK7"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={prioryveureka2}
+              isBlog={false}
+              title="Priory vs. Eureka 11/10/23"
+              description="| Goals: Grant M. x2 * Cameron R. x1 * Wes Harvey x1 |"
+              ghLink="https://photos.app.goo.gl/KbyKzHGuRZzr9Ph97"
             />
           </Col>
           <Col md={4} className="project-card">

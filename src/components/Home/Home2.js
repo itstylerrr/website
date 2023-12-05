@@ -19,7 +19,7 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I am currently a student at Saint Louis Priory School, and have
+              I am currently a student at Saint Louis Priory School and have
               interests in many things.
               <br />
               <br />I have been shooting at Priory for 3 years -- and also have
@@ -36,7 +36,7 @@ function Home2() {
               <br />
               Whenever possible, I also love to spend time with friends,
               practice sports, and apply my knowledge in development to make
-              softwear and websites with <b className="purple">Node.js</b> and
+              software and websites with <b className="purple">Node.js</b> and
               <i>
                 <b className="purple">
                   {" "}

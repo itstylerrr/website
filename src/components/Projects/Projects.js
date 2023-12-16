@@ -35,6 +35,9 @@ import prioryveureka2 from "../../Assets/Photos/111023.jpg";
 import prioryvclayton3 from "../../Assets/Photos/111323.jpg";
 import priorybballjamboree from "../../Assets/Photos/111423.jpg";
 import prioryvnorthwest from "../../Assets/Photos/112723.jpg";
+import prioryvmarquette2 from "../../Assets/Photos/113023.jpg";
+import jbsmeet from "../../Assets/Photos/120123.jpg";
+import prioryvmicds4 from "../../Assets/Photos/12123.jpg";
 
 function Projects() {
   return (
@@ -55,6 +58,33 @@ function Projects() {
               title="| Support my work! |"
               description="If you enjoy my work, you can click the button below to 'buy me a coffee!'"
               ghLink="https://www.buymeacoffee.com/tjwit"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={prioryvmicds4}
+              isBlog={false}
+              title="Priory vs. MICDS 12/01/23"
+              description="| Goals: Cole C. x1 * Gabe K. x1 * Max N. x1 |"
+              ghLink="https://photos.app.goo.gl/bPRjipnJn5JdQQjT6"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={jbsmeet}
+              isBlog={false}
+              title="Priory @ JBS Tournament 12/01/23"
+              description="| I don't know how wrestling works, if you know the score let me know and I'll put it here. |"
+              ghLink="https://photos.app.goo.gl/BueBjhbLi5GiutMm8"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={prioryvmarquette2}
+              isBlog={false}
+              title="Priory vs. Marquette 11/30/23"
+              description="| Overtime Loss: 66-71 |"
+              ghLink="https://photos.app.goo.gl/eSWJGnKPdbB3zgWd8"
             />
           </Col>
           <Col md={4} className="project-card">

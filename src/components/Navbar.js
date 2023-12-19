@@ -5,6 +5,7 @@ import Container from "react-bootstrap/Container";
 import logo from "../Assets/logo.png";
 import { Link } from "react-router-dom";
 import { ImCamera } from "react-icons/im";
+import { FaBook } from "react-icons/fa";
 import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
 
 function NavBar() {
@@ -67,6 +68,16 @@ function NavBar() {
                 onClick={() => updateExpanded(false)}
               >
                 <ImCamera style={{ marginBottom: "2px" }} /> Photos
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/fallacies"
+                onClick={() => updateExpanded(false)}
+              >
+                <FaBook style={{ marginBottom: "2px" }} /> Fallacies
               </Nav.Link>
             </Nav.Item>
 

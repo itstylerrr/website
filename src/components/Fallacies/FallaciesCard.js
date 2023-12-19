@@ -13,7 +13,8 @@ function AboutCard() {
               class.{" "}
             </span>{" "}
             Anyways, I have compiled a list of some fallacies that we have
-            talked about in class.
+            talked about in class, and a few that I have researched on my own.
+            <br></br>
             <br></br>
             <p>
               In a world where the <strong>Fallacy of Composition</strong> runs

@@ -39,6 +39,7 @@ import prioryvmarquette2 from "../../Assets/Photos/113023.jpg";
 import jbsmeet from "../../Assets/Photos/120123.jpg";
 import prioryvmicds4 from "../../Assets/Photos/12123.jpg";
 import prioryvjbs2 from "../../Assets/Photos/122223.jpg";
+import prioryvsummit from "../../Assets/Photos/122623.jpg";
 
 function Projects() {
   return (
@@ -59,6 +60,15 @@ function Projects() {
               title="| Support my work! |"
               description="If you enjoy my work, you can click the button below to 'buy me a coffee!'"
               ghLink="https://www.buymeacoffee.com/tjwit"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={prioryvsummit}
+              isBlog={false}
+              title="Priory vs. Summit 12/26/23"
+              description="| Overtime loss - 31-36 |"
+              ghLink="https://photos.app.goo.gl/pnSNVtudTvHUk6ss9"
             />
           </Col>
           <Col md={4} className="project-card">

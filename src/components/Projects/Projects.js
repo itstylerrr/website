@@ -41,6 +41,7 @@ import prioryvmicds4 from "../../Assets/Photos/12123.jpg";
 import prioryvjbs2 from "../../Assets/Photos/122223.jpg";
 import prioryvsummit from "../../Assets/Photos/122623.jpg";
 import prioryvsumner from "../../Assets/Photos/122823.jpg";
+import prioryvsdesmet from "../../Assets/Photos/122923.jpg";
 
 function Projects() {
   return (
@@ -61,6 +62,15 @@ function Projects() {
               title="| Support my work! |"
               description="If you enjoy my work, you can click the button below to 'buy me a coffee!'"
               ghLink="https://www.buymeacoffee.com/tjwit"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={prioryvsumner}
+              isBlog={false}
+              title="Priory vs. DeSmet 12/29/23"
+              description="| Ravens fall to DeSmet. |"
+              ghLink="https://photos.app.goo.gl/rRscGLUXbbsTxeXk8"
             />
           </Col>
           <Col md={4} className="project-card">

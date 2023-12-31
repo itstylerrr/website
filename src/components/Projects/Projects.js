@@ -66,7 +66,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={prioryvsumner}
+              imgPath={prioryvsdesmet}
               isBlog={false}
               title="Priory vs. DeSmet 12/29/23"
               description="| Ravens fall to DeSmet. |"

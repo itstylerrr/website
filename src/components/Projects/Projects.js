@@ -42,6 +42,7 @@ import prioryvjbs2 from "../../Assets/Photos/122223.jpg";
 import prioryvsummit from "../../Assets/Photos/122623.jpg";
 import prioryvsumner from "../../Assets/Photos/122823.jpg";
 import prioryvsdesmet from "../../Assets/Photos/122923.jpg";
+import prioryvnorthwest1 from "../../Assets/Photos/11124.jpg";
 
 function Projects() {
   return (
@@ -62,6 +63,15 @@ function Projects() {
               title="| Support my work! |"
               description="If you enjoy my work, you can click the button below to 'buy me a coffee!'"
               ghLink="https://www.buymeacoffee.com/tjwit"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={prioryvnorthwest1}
+              isBlog={false}
+              title="Priory vs. Northwest 1/11/24"
+              description="| Ravens Win: 5-1 - Goals: Gabe K. x2 * Cole C. x1 * Wynn O. x1 * Max N. x1 |"
+              ghLink="https://photos.app.goo.gl/21F1rBsPYJcfsfWh9"
             />
           </Col>
           <Col md={4} className="project-card">

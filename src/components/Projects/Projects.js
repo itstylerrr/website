@@ -47,6 +47,7 @@ import priorywrestling1 from "../../Assets/Photos/11824.jpg";
 import prioryvmarquette3 from "../../Assets/Photos/11924.jpg";
 import prioryvmicds5 from "../../Assets/Photos/12024.jpg";
 import prioryvcbc2 from "../../Assets/Photos/12624.jpg";
+import cf1 from "../../Assets/Photos/12824.jpg";
 
 function Projects() {
   return (
@@ -67,6 +68,15 @@ function Projects() {
               title="| Support my work! |"
               description="If you enjoy my work, you can click the button below to 'buy me a coffee!'"
               ghLink="https://www.buymeacoffee.com/tjwit"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={cf1}
+              isBlog={false}
+              title="C2 - Chesterfield Falcons 1/28/24"
+              description="| Enjoy! |"
+              ghLink="https://photos.app.goo.gl/GDUaLfT1Qisun7rZ6"
             />
           </Col>
           <Col md={4} className="project-card">

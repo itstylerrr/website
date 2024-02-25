@@ -50,6 +50,7 @@ import prioryvcbc2 from "../../Assets/Photos/12624.jpg";
 import cf1 from "../../Assets/Photos/12824.jpg";
 import prioryvseckman from "../../Assets/Photos/2224.jpg";
 import priorybballseniornight2 from "../../Assets/Photos/21624.jpg";
+import priorydistrictchamps from "../../Assets/Photos/22424.jpg";
 
 function Projects() {
   return (
@@ -70,6 +71,15 @@ function Projects() {
               title="| Support my work! |"
               description="If you enjoy my work, you can click the button below to 'buy me a coffee!'"
               ghLink="https://www.buymeacoffee.com/tjwit"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={priorydistrictchamps}
+              isBlog={false}
+              title="Priory Basketball District Championship 2/16/24"
+              description="| Your Priory Ravens are District Champions! |"
+              ghLink="https://photos.app.goo.gl/91wVFXrv9MXneCz76"
             />
           </Col>
           <Col md={4} className="project-card">

@@ -51,6 +51,7 @@ import cf1 from "../../Assets/Photos/12824.jpg";
 import prioryvseckman from "../../Assets/Photos/2224.jpg";
 import priorybballseniornight2 from "../../Assets/Photos/21624.jpg";
 import priorydistrictchamps from "../../Assets/Photos/22424.jpg";
+import sluvrichmond from "../../Assets/Photos/22824.jpg";
 
 function Projects() {
   return (
@@ -71,6 +72,15 @@ function Projects() {
               title="| Support my work! |"
               description="If you enjoy my work, you can click the button below to 'buy me a coffee!'"
               ghLink="https://www.buymeacoffee.com/tjwit"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={sluvrichmond}
+              isBlog={false}
+              title="SLU vs. Richmond 2/28/24"
+              description="| My first time getting to shoot in a college basketball arena! Thank you, SLU!  |"
+              ghLink="https://photos.app.goo.gl/ewe7ixxstmYgdio5A"
             />
           </Col>
           <Col md={4} className="project-card">

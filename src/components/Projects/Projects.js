@@ -52,6 +52,7 @@ import prioryvseckman from "../../Assets/Photos/2224.jpg";
 import priorybballseniornight2 from "../../Assets/Photos/21624.jpg";
 import priorydistrictchamps from "../../Assets/Photos/22424.jpg";
 import sluvrichmond from "../../Assets/Photos/22824.jpg";
+import prioryvkirkwood from "../../Assets/Photos/4724.jpg";
 
 function Projects() {
   return (
@@ -76,7 +77,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={sluvrichmond}
+              imgPath={prioryvkirkwood}
               isBlog={false}
               title="Priory vs. Kirkwood 4/7/24"
               description="| First pictures from the spring, with a Ravens win!  |"

@@ -78,6 +78,15 @@ function Projects() {
             <ProjectCard
               imgPath={sluvrichmond}
               isBlog={false}
+              title="Priory vs. Kirkwood 4/7/24"
+              description="| First pictures from the spring, with a Ravens win!  |"
+              ghLink="https://photos.app.goo.gl/ibUjrmsyjCD5k8Sx7"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={sluvrichmond}
+              isBlog={false}
               title="SLU vs. Richmond 2/28/24"
               description="| My first time getting to shoot in a college basketball arena! Thank you, SLU!  |"
               ghLink="https://photos.app.goo.gl/ewe7ixxstmYgdio5A"

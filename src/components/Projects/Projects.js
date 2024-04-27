@@ -54,6 +54,7 @@ import priorydistrictchamps from "../../Assets/Photos/22424.jpg";
 import sluvrichmond from "../../Assets/Photos/22824.jpg";
 import prioryvkirkwood from "../../Assets/Photos/4724.jpg";
 import prioryvmicds6 from "../../Assets/Photos/4824.jpg";
+import fd2 from "../../Assets/Photos/42624.jpg";
 
 function Projects() {
   return (
@@ -74,6 +75,15 @@ function Projects() {
               title="| Support my work! |"
               description="If you enjoy my work, you can click the button below to 'buy me a coffee!'"
               ghLink="https://www.buymeacoffee.com/tjwit"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={fd2}
+              isBlog={false}
+              title="Priory Field Day 4/26/24"
+              description="| 2024 Priory Field Day - Shoutout Max Nadaud for taking an injury break to take pictures of the Sophomore v. Freshmen soccer match.  |"
+              ghLink="https://adobe.ly/4djV6rF"
             />
           </Col>
           <Col md={4} className="project-card">

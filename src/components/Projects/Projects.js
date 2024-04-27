@@ -55,6 +55,7 @@ import sluvrichmond from "../../Assets/Photos/22824.jpg";
 import prioryvkirkwood from "../../Assets/Photos/4724.jpg";
 import prioryvmicds6 from "../../Assets/Photos/4824.jpg";
 import fd2 from "../../Assets/Photos/42624.jpg";
+import prioryvluno7 from "../../Assets/Photos/41024.jpg";
 
 function Projects() {
   return (
@@ -84,6 +85,15 @@ function Projects() {
               title="Priory Field Day 4/26/24"
               description="| 2024 Priory Field Day - Shoutout Max Nadaud for taking an injury break to take pictures of the Sophomore v. Freshmen soccer match.  |"
               ghLink="https://adobe.ly/4djV6rF"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={prioryvluno7}
+              isBlog={false}
+              title="Priory vs. Lutheran North 4/10/24"
+              description="| First baseball pictures of the year!  |"
+              ghLink="https://photos.app.goo.gl/N9hxAPJmXkubQAxE7"
             />
           </Col>
           <Col md={4} className="project-card">

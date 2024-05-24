@@ -56,6 +56,7 @@ import prioryvkirkwood from "../../Assets/Photos/4724.jpg";
 import prioryvmicds6 from "../../Assets/Photos/4824.jpg";
 import fd2 from "../../Assets/Photos/42624.jpg";
 import prioryvluno7 from "../../Assets/Photos/41024.jpg";
+import car1 from "../../Assets/Photos/52324.jpg";
 
 function Projects() {
   return (
@@ -76,6 +77,15 @@ function Projects() {
               title="| Support my work! |"
               description="If you enjoy my work, you can click the button below to 'buy me a coffee!'"
               ghLink="https://www.buymeacoffee.com/tjwit"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={car1}
+              isBlog={false}
+              title="2024 Acura Integra A-Spec 5/23/24"
+              description="| Some pictures I took of my car on the first day of summer break!  |"
+              ghLink="https://adobe.ly/3VdDjLC"
             />
           </Col>
           <Col md={4} className="project-card">
